@@ -640,7 +640,7 @@
         <div id="introSection" class="centered-page">
             <h1><i class="fa-solid fa-envelope-open-text"></i> Phishing Crisis Simulation</h1>
             <p style="max-width: 600px;">Welcome, new Head of Cyber Threat Intelligence at COLHAK Technology! Your company is developing a groundbreaking AI-based product. However, a rival group is launching a multi-layered spear-phishing attack to steal intellectual property. This attack isn't limited to emails—it's supported by LinkedIn, WhatsApp, and phone calls. Your mission: Detect anomalous behavior and protect the company against this insidious attack!</p>
-            <img src="https://storage.googleapis.com/gemini-prod-us-west1-assets/e237357053e1f579" alt="A cyber security themed intro image" class="scenario-image">
+            <img src="intro.png" alt="A cyber security themed intro image" class="scenario-image">
 
             <div class="intro-info-grid">
                 <div class="intro-roles-container">
@@ -1351,7 +1351,7 @@
                             <p>As you start the new week as Head of CTI, disturbing signals from multiple sources are setting off **alarm bells**.</p>
                             <p><strong>Incident 1: Strange Email from the CEO</strong><br>You received a suspicious email from CEO Elara Yılmaz with an attachment named 'Project_AI_Optimization_V3.pdf'. Grammatical errors and a slight typo in the sender's address (<code>.com</code> instead of <code>.co</code>) are noticeable. Is this a targeted phishing attempt?</p>
                             <p><strong>Incident 2: Odd Job Offer on LinkedIn</strong><br>R&D engineer Ozan Demirci reported receiving a "very attractive" job offer on LinkedIn. The offer allegedly comes from the "Global R&D Director" of a rival company. Although the profile looks professional, some details seem strange to Ozan, and he is directed to a special portal.</p>
-                            <img src="https://storage.googleapis.com/gemini-prod-us-west1-assets/e38f6b0f5139265f" alt="Suspicious email and LinkedIn message" class="scenario-image">
+                            <img src="linkedin.png" alt="Suspicious email and LinkedIn message" class="scenario-image">
                             <div class="interactive-element">
                                 <h4>As the Head of Cyber Threat Intelligence, what will be your first steps? How will you handle these two different vectors? (Make 2 choices)</h4>
                                 <div class="decision-buttons">
@@ -1377,7 +1377,7 @@
                         <div id="day1_evening_phishing" class="section" data-max-selections="2">
                             <h2><i class="fa-solid fa-cloud-moon"></i> Day 1: Evening - Intelligence Gathering and Response Strategy</h2>
                             <h3>06:00 PM - Insider Suspicions and Decisions</h3>
-                            <img src="https://storage.googleapis.com/gemini-prod-us-west1-assets/914c6e91f16d80de" alt="WhatsApp and phone call screenshots" class="scenario-image">
+                            <img src="tespit.png" alt="WhatsApp and phone call screenshots" class="scenario-image">
                             <div class="interactive-element">
                                 <h4>What intelligence gathering and response strategy will you follow against these new and deepening attack vectors? (Make 2 choices)</h4>
                                 <div class="decision-buttons">
@@ -1395,7 +1395,7 @@
                             <h3>10:00 AM - AI Project in Danger! Suspicion on Cemil Kaan!</h3>
                             <p>If the email analysis was done, the analysis of the malware in the email to the CEO is complete. The software was found to be trying to access the **'Project AI' folder**. This indicates that the intellectual property was targeted. The LinkedIn, WhatsApp, and phone calls were efforts to gain personnel trust for this access.</p>
                             <p>The most alarming development: If you conducted personnel interviews or internal network monitoring, it was revealed that **Cemil Kaan from the Finance Department made abnormal access attempts to a critical folder he normally doesn't have access to** at the beginning of the crisis. There are also rumors about Cemil's financial difficulties and rival job offers.</p>
-                            <img src="https://storage.googleapis.com/gemini-prod-us-west1-assets/e0cc37682dd40989" alt="AI project data leak risk" class="scenario-image">
+                            <img src="risk.png" alt="AI project data leak risk" class="scenario-image">
                             <div class="interactive-element">
                                 <h4>What will be your most critical actions to protect the intellectual property, stop the attack, and manage the insider threat? (Make 2 choices)</h4>
                                 <div class="decision-buttons">
@@ -1413,7 +1413,7 @@
                             <h2><i class="fa-solid fa-lightbulb"></i> Day 2: Afternoon - Crisis Management and Decision-Making (High Pressure)</h2>
                             <h3>03:30 PM - Crisis Team Under Pressure</h3>
                             <p>The details of the attack are becoming clear: Your AI project's intellectual property is under serious threat, and <span id="cemil-status">${game.state.cemilConfronted ? '<strong>it has been confirmed that Cemil Kaan was manipulated or leaked information from within.</strong>' : 'there is suspicion of an insider "mole" or a manipulated employee.'}</span> The CEO wants quick action and a clear message. The Finance Director is concerned about legal processes and losses. The HR Director emphasizes employee morale and trust.</p>
-                            <img src="https://storage.googleapis.com/gemini-prod-us-west1-assets/e6113b567d4f9d45" alt="Crisis management team" class="scenario-image">
+                            <img src="team.png" alt="Crisis management team" class="scenario-image">
                             <div class="interactive-element">
                                 <h4>What strategic decisions will you make at this stage of the crisis? (Make 2 choices)</h4>
                                 <div class="decision-buttons">
@@ -1430,7 +1430,7 @@
                             <h2><i class="fa-solid fa-check-circle"></i> Day 3: Morning - Recovery and Future Strategies</h2>
                             <h3>11:00 AM - Post-Crisis Recovery</h3>
                             <p>The most intense phase of the incident is over. The scope and impact of the attack have been understood ${game.state.cemilConfronted ? 'and the Cemil Kaan situation has been addressed.' : '.'} COLHAK Technology needs to learn from this experience and become more resilient to future cyber threats. Protecting intellectual property, restoring employee trust, and repairing the company's reputation are priorities. As the Head of Cyber Threat Intelligence, your task is to turn lessons learned into concrete action plans and propose a long-term security strategy.</p>
-                            <img src="https://storage.googleapis.com/gemini-prod-us-west1-assets/ab24b890a2a1b9f6" alt="Recovery and healing efforts" class="scenario-image">
+                            <img src="kurtarma.png" alt="Recovery and healing efforts" class="scenario-image">
                             <div class="interactive-element">
                                 <h4>What long-term strategies will you propose for your company's future cyber resilience? (Make 2 choices)</h4>
                                 <div class="decision-buttons">
@@ -1591,3 +1591,4 @@
     </script>
 </body>
 </html>
+
